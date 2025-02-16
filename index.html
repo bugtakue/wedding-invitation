@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>刘泽荣 & 吴阶进的婚礼邀请</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 开场部分 -->
+        <section class="welcome-section animate__animated animate__fadeIn">
+            <h1 class="en-text">WELCOME TO OUR WEDDING</h1>
+            <div class="main-photo">
+                <img src="images/main.jpg" alt="主照片">
+            </div>
+            <h2 class="en-text">WEDDING INVITATION</h2>
+            <p class="en-text">by</p>
+            <h2 class="en-text">ZERONG & JIEJIN</h2>
+            <p class="couple-names">刘泽荣 & 吴阶进</p>
+            <p class="love-quote">
+                MY HEART BEATS FOR YOU EVERY DAY. I AM INSPIRED BY YOU EVERY MINUTE,<br>
+                AND I WORRY ABOUT YOU EVERY SECOND. IT IS WONDERFUL TO HAVE YOU IN MY LIFE
+            </p>
+        </section>
+
+        <!-- 邀请部分 -->
+        <section class="invitation-section animate__animated animate__fadeIn">
+            <p class="cn-text">协同我们的父母</p>
+            <p class="en-text">Together with our parents</p>
+            <p class="cn-text">真诚地邀请您</p>
+            <p class="en-text">We sincerely invite you to</p>
+            <p class="cn-text">出席我们的新婚喜宴</p>
+            <p class="en-text">Attend our wedding reception</p>
+            <div class="heart">❤</div>
+        </section>
+
+        <!-- 时间地点 -->
+        <section class="datetime-section animate__animated animate__fadeIn">
+            <div class="date">
+                <p>2025.03.12 农历二月初三</p>
+                <p>富黎华婚礼宴会中心(金山店)</p>
+                <p class="countdown">距离婚礼还有：<span id="countdown"></span></p>
+            </div>
+            <div class="calendar">
+                <div class="month">03/12</div>
+                <div class="weekdays">
+                    <span>一</span>
+                    <span>二</span>
+                    <span>三</span>
+                    <span>四</span>
+                    <span>五</span>
+                    <span>六</span>
+                    <span>日</span>
+                </div>
+                <div class="date-highlight">12</div>
+            </div>
+        </section>
+
+        <!-- 照片展示 -->
+        <section class="photo-section animate__animated animate__fadeIn">
+            <div class="love-quote">
+                <h2 class="en-text">I LOVE YOU</h2>
+                <h2 class="en-text">FOR YOU</h2>
+            </div>
+            <div class="photo-grid">
+                <img src="images/photo1.jpg" alt="照片1">
+                <img src="images/photo2.jpg" alt="照片2">
+                <img src="images/photo3.jpg" alt="照片3">
+            </div>
+            <div class="cn-quote">
+                <p>茫茫人海，能够遇见就是一种缘分</p>
+                <p>更何况我们相识、相知</p>
+                <p>没有委曲求全，只有顺其自然</p>
+                <p>和恰到好处</p>
+            </div>
+            <p class="en-text">You make my heart smile</p>
+        </section>
+
+        <!-- 地址和RSVP -->
+        <section class="location-section animate__animated animate__fadeIn">
+            <div class="map-container">
+                <img src="images/map.jpg" alt="地图">
+            </div>
+            <h2>婚礼地址 / ADDRESS</h2>
+            <p>富黎华婚礼宴会中心(金山店)</p>
+            
+            <div class="rsvp-form">
+                <h2>宾客回复 / R.S.V.P</h2>
+                <form id="rsvpForm">
+                    <input type="text" placeholder="姓名" required>
+                    <input type="tel" placeholder="手机" required>
+                    <input type="number" placeholder="出席人数" required>
+                    <button type="submit">提交</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- 结尾部分 -->
+        <section class="ending-section animate__animated animate__fadeIn">
+            <p class="cn-text">感谢陪伴彼此成长的我们</p>
+            <p class="cn-text">也感谢陪伴我们一路走来的你们</p>
+            <div class="double-happiness">囍</div>
+            <p>2025.03.12</p>
+            <p>好久不见 婚礼见</p>
+        </section>
+
+        <!-- 音乐播放器 -->
+        <div class="music-player">
+            <audio id="bgMusic" loop>
+                <source src="music/background-music.mp3" type="audio/mpeg">
+            </audio>
+            <button id="musicToggle" class="music-toggle">
+                <img src="images/music-icon.svg" alt="音乐" class="rotate">
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
